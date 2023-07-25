@@ -122,13 +122,13 @@ h1{
   margin-bottom: 5%;
   color: white;
   
-  font-size: 20px;
+  font-size: 16px;
   font-family: 'Century Gothic Paneuropean','Arial';
 }
 
 .bottomText{
    color: white;
-   font-size: 20px;
+   font-size: 16px;
    font-family: 'Century Gothic Paneuropean','Arial';
    margin-left: 10%;
    margin-right: 10%;
@@ -186,7 +186,7 @@ hr{
 }
 
 .modal p {
-  font-size: 15px;
+  font-size: 16px;
   color: #ffffff;
   margin: 0.4rem 0 0.2rem;
   font-family: 'Century Gothic Paneuropean','Arial';
@@ -211,6 +211,7 @@ button {
   color: white;
   text-align: center;
   font-size: 1em;
+  font-family: 'Lemon/Milk',"Catamaran";
 }
 
 .btn-open {
