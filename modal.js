@@ -31,6 +31,5 @@ const openModal = function () {
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
-
 // open modal event
 openModalBtn.addEventListener("click", openModal);
