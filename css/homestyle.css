@@ -543,17 +543,17 @@ body{
 .modal {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   gap: 0.4rem;
   width: 450px;
   padding: 1.3rem;
   min-height: 250px;
-  position: absolute;
+  position: fixed;
   z-index: 2;
-  top: 20%;
+  top: 25%;
   background-color: #876D57;
   border: 1px solid #ddd;
   left: 38.5%;
+  justify-content: center;
 }
 
 
@@ -597,6 +597,7 @@ button {
   text-align: center;
   font-size: 1em;
   font-family: 'Lemon/Milk',"Catamaran";
+  width: 30%;
 }
 
 .btn-open {
@@ -609,6 +610,7 @@ button {
   padding: 0.5rem 0.7rem;
   background: #eee;
   border-radius: 50%;
+  margin-right: 20px;
 }
 
 .overlay {
@@ -623,6 +625,11 @@ button {
   backdrop-filter: blur(3px);
   z-index: 1;
 }
+
+#email{
+  width: 60%;
+}
+
 
 .hidden {
   display: none;
