@@ -6,6 +6,8 @@ const sendBtn = document.querySelector(".btn");
 
 // close modal function
 const closeModal = function () {
+  $(".modal").fadeToggle(50);
+  $(".overlay").fadeToggle(50);
   modal.classList.add("hidden");
   overlay.classList.add("hidden");
 };
@@ -24,8 +26,11 @@ document.addEventListener("keydown", function (e) {
 
 // open modal function
 const openModal = function () {
+  $(".modal").fadeToggle(50);
+  $(".overlay").fadeToggle(50);
   modal.classList.remove("hidden");
   overlay.classList.remove("hidden");
 };
+
 // open modal event
 openModalBtn.addEventListener("click", openModal);
