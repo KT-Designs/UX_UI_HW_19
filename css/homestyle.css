@@ -364,6 +364,8 @@ body{
 .modal h3{
   font-family: 'Lemon/Milk',"Catamaran";
   color: white;
+  letter-spacing: 1.5px;
+
 }
 
 button {
@@ -382,6 +384,8 @@ button {
   font-size: 1em;
   font-family: 'Lemon/Milk',"Catamaran";
   width: 30%;
+  letter-spacing: 1.5px;
+
 }
 
 .btn-open {

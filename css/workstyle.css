@@ -21,6 +21,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 
 .right{
@@ -34,6 +36,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 
 .logo {
@@ -70,6 +74,8 @@ body{
   text-align: center;
   font-family: 'Lemon/Milk',"Catamaran";
   font-size: 30px;
+  letter-spacing: 1.5px;
+
 }
 
 #work {
@@ -130,6 +136,8 @@ body{
 #case11 p1{
   font-family: 'Lemon/Milk';
   color: white;
+  letter-spacing: 1.5px;
+
 }
 #case11 p2{
   font-family: 'Century Gothic';
@@ -196,6 +204,8 @@ body{
 #case22 p1{
   font-family: 'Lemon/Milk';
   color: white;
+  letter-spacing: 1.5px;
+
 }
 #case22 p2{
   font-family: 'Century Gothic';
@@ -265,6 +275,8 @@ body{
 #case33 p1{
   font-family: 'Lemon/Milk';
   color: white;
+  letter-spacing: 1.5px;
+
 
 }
 #case33 p2{
@@ -333,6 +345,8 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 .rightf a{
   text-decoration: none;
@@ -416,6 +430,8 @@ body{
 .modal h3{
   font-family: 'Lemon/Milk',"Catamaran";
   color: white;
+  letter-spacing: 1.5px;
+
 }
 
 button {
@@ -434,6 +450,8 @@ button {
   font-size: 1em;
   font-family: 'Lemon/Milk',"Catamaran";
   width: 30%;
+  letter-spacing: 1.5px;
+
 }
 
 .btn-open {
