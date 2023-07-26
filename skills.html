@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <link href="css/skillsstyle.css" type="text/css" rel="stylesheet">
   <title>Khristian Thompson's Portfolio</title>
   <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
@@ -9,6 +10,7 @@
 </head>
 <body>
 
+  <!--Contact Me Modal-->
   <section class="modal hidden">
     <div class="flex">
       <img src="./images/K-removebg-preview.png" width="120px" height="120px" alt="user" />
@@ -26,30 +28,52 @@
   </section>
   
   <div class="overlay hidden"></div>
+  <!--End Contact Me Modal-->
 
 
 
   <header>
-  <div class="nav">
-    <div class="logo">
-      <a href="./index.html"><img src="images/K-removebg-preview.png" width="150"
-      height="150"></a>
-    </div>
+  <!--Desktop Header/Nav-->
+    <div class="nav">
 
-    <div class="left">
-      <a href="work.html">Work</a>
-      <a href="skills.html">About</a>
-      <a id="btn-open" href="#">Contact</a>
-    </div>
+      <div class="logo">
+        <a href="./index.html"><img src="images/K-removebg-preview.png" width="150" height="150"></a>
+      </div>
+
+      <div class="left">
+        <a href="work.html">Work</a>
+        <a href="skills.html">About</a>
+        <a id="btn-open" href="#">Contact</a>
+      </div>
   
-    <div class="right">
-      <a href="https://dribbble.com/KhristianT24">Dribbble</a>
-      <a href="https://www.linkedin.com/in/khristian-thompson-18772a216/">LinkedIn</a>
+      <div class="right">
+        <a href="https://dribbble.com/KhristianT24">Dribbble</a>
+        <a href="https://www.linkedin.com/in/khristian-thompson-18772a216/">LinkedIn</a>
+      </div>
+  <!--End Desktop Header/Nav-->
+      
+
+
+  <!--Mobile Header/Nav-->
+      <div class="rightH">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn" style="background-image: url('./images/hamburger.png');"></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./work.html">Work</a>
+            <hr>
+            <a href="./skills.html">About</a>
+            <hr>
+            <a href="mailto:Khristiant.24@gmail.com">Contact</a>
+          </div>
+        </div>
+      </div>
+  <!--End Mobile Header/Nav-->
     </div>
-  </div>
   </header>
 
 
+  <div>
+  <!--Begin Body Content-->
   <h1>ABOUT ME</h1>
   <hr>
   <div class="topText">
@@ -78,6 +102,10 @@
       </p2>
     </div>
   </div>
+
+
+
+
 
   <h1>MY SKILLS</h1>
   <hr>
@@ -117,33 +145,29 @@
     </p5>
   </div>
 </div>
+<!--End Body Content-->
 
 
 
-
-
-
-
-
-
-
-  <footer>
-    <div class="foot">
-      <div class="logoF">
-        <img src="images/K-removebg-preview.png" width="150"
-          height="150">
-      </div>
-      <div class="rightf">
-        <a href="#">Contact Me</a>
-        <a href="#">Inquiries</a>
-        <a href="#">Reviews</a>
-      </div>
+<!--Footer-->
+<footer>
+  <div class="foot">
+    <div class="logoF">
+      <img id="footerLogo" src="images/K-removebg-preview.png" width="150"
+        height="150">
     </div>
-  </footer>
-  
+    <div class="rightf">
+      <a href="#">Inquiries</a>
+      <a href="#">Reviews</a>
+    </div>
+  </div>
+</footer>
+<!--End Footer-->
   </body>
-  
+
+<!--Begin Scripts-->
   <script src="./modal.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--Begin Scripts-->
 
   </html>

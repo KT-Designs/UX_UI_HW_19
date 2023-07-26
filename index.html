@@ -10,7 +10,7 @@
 </head>
 <body>
 
-
+  <!--Contact Me Modal-->
   <section class="modal hidden">
     <div class="flex">
       <img src="./images/K-removebg-preview.png" width="120px" height="120px" alt="user" />
@@ -28,11 +28,14 @@
   </section>
   
   <div class="overlay hidden"></div>
+  <!--End Contact Me Modal-->
 
 
+
+  
   <header>
+  <!--Desktop Header/Nav-->
     <div class="nav">
-
       <div class="logo">
         <a href="./index.html"><img src="images/K-removebg-preview.png" width="150" height="150"></a>
       </div>
@@ -47,14 +50,31 @@
         <a href="https://dribbble.com/KhristianT24">Dribbble</a>
         <a href="https://www.linkedin.com/in/khristian-thompson-18772a216/">LinkedIn</a>
       </div>
+  <!--End Desktop Header/Nav-->
       
-      <div class="rightH">
-        <a><img id="menuIcon" src="./images/hamburger.png"></a>
-      </div>
 
+
+  <!--Mobile Header/Nav-->
+      <div class="rightH">
+        <div class="dropdown">
+          <button onclick="myFunction()" class="dropbtn" style="background-image: url('./images/hamburger.png');"></button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="./work.html">Work</a>
+            <hr>
+            <a href="./skills.html">About</a>
+            <hr>
+            <a href="mailto:Khristiant.24@gmail.com">Contact</a>
+          </div>
+        </div>
+      </div>
+  <!--End Mobile Header/Nav-->
     </div>
   </header>
 
+
+
+
+  <!--Begin Body Content-->
   <div class="container">
     <div class="containerTop">
         <div class="item1">
@@ -78,7 +98,11 @@
           researcher, and developer. Have a look at my work below ↓</p></div>
     </div>
   </div>
+  <!--End Body Content-->
 
+
+
+  <!--Begin Body Case Content-->
   <div class="cases">
     <div class="study" >
       <a href="#"><img id="study1" src="images/journie.png"></a>
@@ -89,8 +113,13 @@
     <div class="study" >
       <a href="#"><img id="study3" src="images/scc.png"></a>
     </div>
-</div>
+  </div>
+  <!--End Body Case Content-->
 
+
+
+
+<!--Footer-->
 <footer>
   <div class="foot">
     <div class="logoF">
@@ -98,16 +127,18 @@
         height="150">
     </div>
     <div class="rightf">
-      <a href="#">Contact Me</a>
       <a href="#">Inquiries</a>
       <a href="#">Reviews</a>
     </div>
   </div>
 </footer>
-
+<!--End Footer-->
 </body>
 
+
+<!--Begin Scripts-->
 <script src="./modal.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--End Scripts-->
 
 </html>
