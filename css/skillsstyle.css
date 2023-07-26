@@ -76,9 +76,11 @@ body{
 }
 
 h1{
+  margin-top: 2.5%;
   font-family: 'Lemon/Milk','Catamaran';
   color: white;
   text-align: center;
+  
 }
 
 
@@ -99,7 +101,7 @@ h1{
    font-family: 'Century Gothic Paneuropean','Arial';
    margin-left: 10%;
    margin-right: 10%;
-   margin-bottom: 5%;
+   margin-bottom: 11%;
 }
 .bold{
   font-weight: bold;

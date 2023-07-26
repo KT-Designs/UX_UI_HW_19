@@ -21,6 +21,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 
 .right{
@@ -34,6 +36,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 
 #menuIcon{
@@ -143,6 +147,7 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 2px;
 }
 
 #photo1{
@@ -238,6 +243,8 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 .rightf a{
   text-decoration: none;
