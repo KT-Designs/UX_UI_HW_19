@@ -1,3 +1,4 @@
+/*Contact Me Modal for Desktop View*/
 const modal = document.querySelector(".modal");
 const overlay = document.querySelector(".overlay");
 const openModalBtn = document.querySelector("#btn-open");
@@ -34,9 +35,17 @@ const openModal = function () {
 
 // open modal event
 openModalBtn.addEventListener("click", openModal);
+/*End Contact Me Modal for Desktop View*/
 
 
 
+
+
+
+
+
+
+/*Drop Down Menu for Mobile View*/
 
 /* When the user clicks on the button,
 toggle between hiding and showing the dropdown content */
@@ -57,3 +66,4 @@ window.onclick = function(event) {
     }
   }
 }
+/*End Drop Down Menu for Mobile View*/
