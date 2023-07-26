@@ -1,3 +1,4 @@
+/*Header*/
 .nav {
   display: flex;
   width: 100%;
@@ -20,6 +21,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 
 .right{
@@ -33,6 +36,8 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 
 .logo {
@@ -41,17 +46,94 @@
   margin-top: 0%;
   flex-shrink: 0;
   cursor: pointer;
-}
+  letter-spacing: 1.5px;
 
+}
+/*Header End*/
+
+
+
+
+
+
+
+/*Body Start*/
 body{
   background-color:#755E4A ;
   margin: 0px;
 }
 
 
+.nav a{
+  text-decoration: none;
+  color: white;
+  margin-right:20px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.nav a:hover{
+  color: white;
+  transition: 0.5s;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+h1{
+  margin-top: 2.5%;
+  font-family: 'Lemon/Milk','Catamaran';
+  color: white;
+  text-align: center;
+  letter-spacing: 1.5px;
+
+}
+
+
+
+.topText{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  color: white;
+  max-width: 1100px;
+  font-size: 16px;
+  font-family: 'Century Gothic Paneuropean','Arial';
+}
+
+.bottomText{
+   color: white;
+   font-size: 16px;
+   font-family: 'Century Gothic Paneuropean','Arial';
+   margin-left: auto;
+   margin-right: auto;
+   max-width: 1100px;
+
+   margin-bottom: 11%;
+}
+.bold{
+  font-weight: bold;
+}
+
+hr{
+  width: 1100px;
+}
+/*Body End*/
+
+
+
+
+
+
+
+/*Footer Start*/
+
+
 .foot{
   display: flex;
-
+  margin: 0%;
+  margin-top: auto;
   background: linear-gradient(360deg, #5f4b3a 0%, #876D57 100%);
   height: 153px;
   width: 100%;
@@ -74,6 +156,8 @@ body{
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 1.5px;
+
 }
 .rightf a{
   text-decoration: none;
@@ -90,63 +174,7 @@ body{
   text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
   cursor: pointer;
 }
-
-.nav a{
-  text-decoration: none;
-  color: white;
-  margin-right:20px;
-  transition: 1s;
-  cursor: pointer;
-}
-
-.nav a:hover{
-  color: white;
-  transition: 0.5s;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
-  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
-  cursor: pointer;
-}
-
-h1{
-  font-family: 'Lemon/Milk','Catamaran';
-  color: white;
-  text-align: center;
-}
-
-
-
-.topText{
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  color: white;
-  
-  font-size: 16px;
-  font-family: 'Century Gothic Paneuropean','Arial';
-}
-
-.bottomText{
-   color: white;
-   font-size: 16px;
-   font-family: 'Century Gothic Paneuropean','Arial';
-   margin-left: 10%;
-   margin-right: 10%;
-   margin-bottom: 5%;
-}
-.bold{
-  font-weight: bold;
-}
-
-hr{
-  width: 80%;
-}
-
-@media only screen and (max-width: 600){
-  
-}
-
-
+/*Footer End*/
 
 
 
@@ -195,6 +223,8 @@ hr{
 .modal h3{
   font-family: 'Lemon/Milk',"Catamaran";
   color: white;
+  letter-spacing: 1.5px;
+
 }
 
 button {
@@ -213,6 +243,8 @@ button {
   font-size: 1em;
   font-family: 'Lemon/Milk',"Catamaran";
   width: 30%;
+  letter-spacing: 1.5px;
+
 }
 
 .btn-open {
@@ -240,6 +272,10 @@ button {
   backdrop-filter: blur(3px);
   z-index: 1;
 }
+/*Modal*/
+
+
+
 
 #email{
   width: 60%;
@@ -248,3 +284,225 @@ button {
 .hidden {
   display: none;
 }
+
+
+.rightH{
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Begin Mobile*/
+
+@media only screen and (max-width: 600px){
+
+
+
+/*Menu Start*/
+.dropbtn {
+  background-color: #ffffff00;
+  background-image: url('/images/hamburger.png');
+  background-repeat: none;
+  background-size: 100%;
+  height: 60px;
+  width: 60px;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #00000020;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #755E4A;
+  min-width: 520px;
+  margin-left: -400px;
+  margin-right: 0;
+  margin-top: 20px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  border: black solid 0.1px;
+}
+
+a{
+  font-family: 'Lemon/Milk',"Catamaran";
+  text-align: center;
+}
+
+hr{
+    border-color: black;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #8f735b;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+/*Menu End*/
+
+
+
+
+
+
+
+/*Header Start*/
+.nav {
+  display: flex;
+  width: 100%;
+  margin: 0%;
+  background: linear-gradient(180deg, #68523f 0%, #876D57 100%);
+  height: 121px;
+  flex-shrink: 0;
+  gap: 10px;
+  border-bottom: 1px solid;
+  border-color: black;
+}
+
+.left {
+  align-self: flex-end;
+  margin-left: 0%;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Lemon/Milk',"Catamaran";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: none;
+}
+
+.right{
+  margin-left: auto;
+  margin-right: 10%;
+  align-self: flex-end;
+  margin-bottom: 10px;
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Lemon/Milk',"Catamaran";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: none;
+}
+
+#menuIcon{
+  height: 50px;
+  width: 50px;
+  z-index: 1;
+}
+
+.rightH{
+  display: flex;
+  margin-left: auto;
+  margin-right: 12%;
+  align-self: flex-end;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-left:5%;
+  margin-right:0%;
+  margin-top: 0%;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+/*Header End*/
+
+
+
+
+.topText{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  color: white;
+  max-width: 1100px;
+  font-size: 16px;
+  font-family: 'Century Gothic Paneuropean','Arial';
+}
+
+.bottomText{
+   color: white;
+   font-size: 16px;
+   font-family: 'Century Gothic Paneuropean','Arial';
+   margin-left: 10%;
+   margin-right: 10%;
+   max-width: 1100px;
+
+   margin-bottom: 11%;
+}
+
+hr{
+  width: 80%;
+  border-color: rgb(255, 255, 255);
+}
+
+/*Footer Start*/
+.foot{
+  display: flex;
+  background: linear-gradient(360deg, #5f4b3a 0%, #876D57 100%);
+  height: 150px;
+  width: 100%;
+  flex-shrink: 0;
+  border-top: 1px solid;
+  border-color: black;
+  bottom: 0;
+  padding-bottom: 5px;
+}
+
+.logoF{
+  margin-left: 5%;
+}
+
+
+.rightf{
+  display: flex;
+  margin-left: auto;
+  margin-right: 11.5%;
+  align-self: flex-end;
+  margin-bottom: 40px;
+  color: #FFF;
+  font-size: 18px;
+  font-family: 'Lemon/Milk',"Catamaran";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  flex-direction: column;
+  gap: 10px;
+}
+/*Footer End*/
+
+}
+/*End Mobile*/
