@@ -1,5 +1,5 @@
 /*Header*/
-.nav {
+.nav1 {
   display: flex;
   width: 100%;
   margin: 0%;
@@ -52,7 +52,7 @@
   flex-shrink: 0;
   cursor: pointer;
 }
-.nav a{
+.nav1 a{
   text-decoration: none;
   color: white;
   margin-right:20px;
@@ -60,7 +60,7 @@
   cursor: pointer;
 }
 
-.nav a:hover{
+.nav1 a:hover{
   color: white;
   transition: 0.5s;
   -webkit-text-stroke-width: 0.5px;
@@ -71,6 +71,46 @@
 
 .rightH{
   display: none;
+}
+
+.nav{
+  margin-top: 1%;
+margin-left: auto !important;
+margin-right: auto;
+
+}
+
+.nav a{
+  text-decoration: none;
+  color: white;
+  margin-right:20px;
+  transition: 1s;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Lemon/Milk',"Catamaran";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+.nav a:hover{
+  color: white;
+  transition: 0.5s;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Lemon/Milk',"Catamaran";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.5px;
+}
+
+#split2{
+  width: 60%;
 }
 
 /*Header End*/
@@ -549,7 +589,7 @@ margin-left: 40%;
 
 
 /*Header Start*/
-.nav {
+.nav1 {
   display: flex;
   width: 100%;
   margin: 0%;
