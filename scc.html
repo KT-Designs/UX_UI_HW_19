@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!--Required Meta Tags-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="css/scc.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://fonts.cdnfonts.com/css/lemonmilk" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/catamaran" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/century-gothic-paneuropean" rel="stylesheet">
+  <title>Case Study</title>
+</head>
+
+<body>
+  <!--Contact Me Modal-->
+  <section class="modal hidden">
+    <div class="flex">
+      <img src="./images/K-removebg-preview.png" width="120px" height="120px" alt="user" />
+      <button class="btn-close">⨉</button>
+    </div>
+    <div>
+      <h3>Got a Question?</h3>
+      <p>
+        Leave your email below, and I will reach out to you as soon as possible!
+      </p>
+    </div>
+  
+    <input type="email" id="email" placeholder="Example@gmail.com" />
+    <button class="btn">Send</button>
+  </section>
+  
+  <div class="overlay hidden"></div>
+  <!--End Contact Me Modal-->
+
+
+
+
+  <!--Begin Header-->
+  <header>
+    <!--Desktop Header/Nav-->
+      <div class="nav">
+        <div class="logo">
+          <a href="./index.html"><img src="images/K-removebg-preview.png" width="150" height="150"></a>
+        </div>
+  
+        <div class="left">
+          <a href="work.html">Work</a>
+          <a href="skills.html">About</a>
+          <a id="btn-open" href="#">Contact</a>
+        </div>
+    
+        <div class="right">
+          <a href="https://dribbble.com/KhristianT24">Dribbble</a>
+          <a href="https://www.linkedin.com/in/khristian-thompson-18772a216/">LinkedIn</a>
+        </div>
+    <!--End Desktop Header/Nav-->
+        
+  
+  
+    <!--Mobile Header/Nav-->
+        <div class="rightH">
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" style="background-image: url('./images/hamburger.png');"></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="./work.html">Work</a>
+              <hr>
+              <a href="./skills.html">About</a>
+              <hr>
+              <a href="mailto:Khristiant.24@gmail.com">Contact</a>
+            </div>
+          </div>
+        </div>
+    <!--End Mobile Header/Nav-->
+      </div>
+    </header>
+  <!--End Header-->
+
+
+
+  
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="col col1">
+        <div class="titleText">
+          <h1 id="title">Second Chance Chi</h1>
+          <br>
+          <p>UX/UI Website Design</p>
+          <hr>
+          <p>Second Chance Chi is a collaborative effort created by animal lovers who recognize
+           that the highest percentage of dogs killed in shelters are chihuahuas and chihuahua
+            mixes. With love and hope for a change , we join together to save lives, one life
+             at a time. Our goal is to redesign the current site to reinstate the companies
+              digital footprint. By doing so, Second Chance Chi can be brought up to par with
+               shelter competitors, boosting adoptions, and throttling community outreach, 
+               allowing for increased funding and website traffic.
+          </p>
+          <hr>
+          <p>
+            Team: Khristian Thompson
+            <br>
+            Josslyn Lodder
+            <br>
+            Chris Brown
+            <br>
+            Celeste Allen
+          </p>
+        </div>
+      </div>
+      <div class="col col2"><img id="scc" src="./images/SCC2.png" ></div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<hr class="split">
+<p id="timeline">Day 1-3</p>
+<h1 class="sectionTitle">User Research</h1>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="col">
+        <p class="text">Second Chance Chi is a Shelter in Utah that has lost its digital touch.
+         Myself and a team of three other UX/UI designers chose to tackle this problem for the 
+         nonprofit organization by conducting a 3 week project to redesign the website in its 
+         entirety. Over the time we broke the project into four phases: Research, Information 
+         Architecture, Design, and Prototyping.
+         <br>
+         <p class="text">
+          During the first three days of the project we overhauled data through series of user
+           interviews and original website testing. We chose users whom had direct experience 
+           with shelters in all aspects pertaining to adoption, fostering, and volunteering with
+            a direct focus on adoption. We tailored our testing and interview plan specifically
+             to those whom have used a shelter before so we could better understand what a normal
+              adoption process goes like. By doing so, we were able to identify pain points and 
+              success areas based on user experiences that we could avoid and incorporate into our
+               redesign.
+         </p>
+        </p>
+      </div>
+      <div class="col"><img id="image1" src="./images/studyphotos/image 1.png"></div>
+      <div class="w-100"></div>
+      <div class="col col2">
+        <p class="text">
+          Over the course of 5 initial test and 5 interviews we are able to determine that 
+          the current site was unusable and overall useless and that it was lacking many as
+          pects that users desired. Our participants desired informative pages, simplicity, 
+          straightforward design, and a trustworthy feel.
+          Upon completing our initial rounds of interviews and test we were able to create 
+          an affinity diagram highlighting key areas in our findings. Some highlights from 
+          our findings are that participants found many shelters lack viable information on 
+          the animals and that they desired a trustworthy design that made sense. The current
+           site Second Chance Chi is hosting is plagued by those exact issues. The data gath
+           ered at this point allowed us to create a persona of our ideal user of the site 
+           whom looks like a driven dog lover whom has a passion for adopting dogs in hopes o
+           f establishing a forever home for them. This persona additionally is dedicated to t
+           he cause, and advocates for the reason behind rescues devoting time as a foster pa
+           rent and volunteer, supporting the rescue by all means.
+        </p>
+        <br>
+        <p class="text">
+          What is the problem?
+        <br>
+          Second Chance Chi is plagued by outdated design elements, limited functionality, and
+           a lack of user engagement, rendering it ineffective in the highly competitive dog rescue
+            and adoptions industry. In order to establish a strong presence and remain competitive,
+             the website requires a comprehensive redesign to address the critical shortcomings it
+              has acquired.
+        </p>
+        <br>
+        <p class="text">       
+          How can it be solved?
+        <br>
+          This issue could be solved by creating a simplistic and personable website which will result
+           in a better user experience. This new website will increase the amount of donations received
+            directly supporting the care of animals and resulting in an increased amount of dogs being saved.
+        </p>
+        <br>
+        <p class="text">
+          By identifying the problem and the hypothesis we now have a streamlined path to a solution for
+           the organization. We felt the need here to conduct competitor analysis on four similar 
+           organizations to gauge the competition and to analyze what the Second Chance Chi was missing
+            that we could incorporate. Some key findings that other organizations had our target didn’t
+             were community stories, thorough pet information, quality designs, and easy navigation. We 
+             found that our website needed to incorporate these to be a running competitor in this race.
+        </p>
+      </div>
+      <div class="col col2"><img id="image2" src="./images/studyphotos/image 2.png"> </div>
+    </div>
+  </div>
+</div>
+
+<h2 class="sectionTitle">Competitor Analysis</h2>
+<div id="image3">
+  <img id="image3" src="./images/studyphotos/image 3.png">
+</div>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="col">
+        <p class="text">
+          At this point in the research we felt that we had gathered enough valuable data for the website to
+           begin prioritizing features to incorporate in our redesign. We identified 12 features and applied
+            them across a prioritization chart and began acting on the perfect blend of features that would 
+            be most impactful with mid complexity. Prime features to incorporate are the volunteer ops, 
+            adoption stories, and design modernization. Lastly we completed our heuristic evaluation to 
+            provide a final overarching summary of the current design to establish a rounded perspective of
+             the current design. Insights from that evaluation revealed the appearance was outdated and 
+             unfriendly, the content was redundant, the navigation was unclear, and lastly the site was plagued
+              by latency and form issues.
+        </p>
+      </div>
+      <div class="col"><img id="image4" src="./images/studyphotos/image 4.png" ></div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div id="image5">
+  <img id="image5" src="./images/studyphotos/Image 5.png">
+</div>
+
+<hr class="split">
+<p id="timeline">Day 4-6</p>
+<h1 class="sectionTitle">Information Architecture</h1>
+
+<div class="aText">
+  <p class="aText">
+  At this time our team had hashed out what needed to be included into the redesigned site, but we had to decipher
+   what was necessary based on what was already there. We began card sorting the website laying out the linkage 
+   and hierarchy to grasp a visual interpretation of the site contents. Upon tabbing the site we were able to redact
+    40% of the current linkage by getting rid of faulty content and redundant linkage. Doing so also allowed us 
+    to group many elements by similarity resulting in a better flow of site content.
+  </p>
+</div>
+<div id="image6">
+  <img id="image6" src="./images/studyphotos/Image 6.png" >
+</div>
+<div class="aText">
+  <p class="aText">
+    After card sorting we created a sitemap to layout the structure of the website that we would base our design on. 
+    The sitemap helped us to set up a home page navigation that allows users to easily access all of the pages for this
+     site. It also will help the users to clearly understand all the services offered with this organization streamlining
+      simplicity that the original site lacked. The next focus of the site was to establish a streamlined user flow. 
+      Our aim for the flow of the site was to be direct and to be able to complete task in a minimal amount of clicks.
+       Our flow creation did just that and made for a seamless task completion. Last but not least we did another 
+       overall analysis of the site content and deemed that all elements should be grouped together and categorized 
+       based on similarity. The original site had three site menus with cluttered and redundant means of navigation. 
+       Often our users were getting lost when trying to complete the usability task on the original website therefore 
+       we wanted to avoid the confusion by grouping by likeness.
+  </p>
+</div>
+<div id="image7">
+  <img id="image7" src="images/studyphotos/image 7.png">
+</div>
+
+<hr class="split">
+<p id="timeline">Day 6-8</p>
+<h1 class="sectionTitle">Design</h1>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="col1">
+        <p class="text">
+          The first step of the design phase for the redesign was to establish a new color palette. Throughout initial
+           testing our users noted that the original sites palette was unfriendly, harsh, and detracted from the website.
+            Over our competitor analysis we saw how dark and sad Second Chance Chi was and how the competition was bright
+             and happy. Our test revealed that users desired that aspect of happiness so we created four mood boards among
+              ourselves and then chose to adopt a sky blue, tan, and sand yellow palette based on the groups combination 
+              of colors. Testing proved this color choice was right as users claimed it fixed the issue the site had before.
+        </p>
+        <img id="image9" src="./images/studyphotos/image 9.png" >
+        <p class="text">
+          The next goal in the design was creating usability. Before, users struggled to complete task therefore by 
+          incorporating our user flow and site map ideas we were able to alleviate test failure. We chose to utilize large 
+          buttons with fair spacing to disrupt the feel of clutter on the redesign.
+          <br>
+          <br>
+          Our final objective to seal the design of the site was to make it sleek and modernized. The current site seemed to
+           be inspired by an outdated design template featuring small text, boxy fields, and no rounding or color depth. We
+            strayed away from that design entirely by incorporating contrasting fields and some miniscule shadowing to give
+             off a modernized feel that users would love. Additionally we included smooth micro interactions on the website
+              to give a small sense of satisfaction to every slick and hover on the site.
+        </p>
+      </div>
+      <div class="col2"><img id="image8" src="images/studyphotos/image 8.png" ></div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div id="image10">
+  <img id="image10" src="images/studyphotos/image 10.png" >
+</div>
+
+<hr class="split">
+<p id="timeline">Day 9-12</p>
+<h1 class="sectionTitle">Prototyping</h1>
+
+<div class="aText">
+  <p class="aText">
+    In prototyping we initially took our design ideas and applied them over sketches that each team member submitted for
+     suggestion. The initial sketches from the team revealed that there was a clear goal and expectation for the websites
+      redesign as the sketches each had similarities. The sketches included a sleek navigation bar, hero images, as well 
+      as focus on the CTA’s. 
+  </p>
+</div>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="Hcol1">
+        <img id="image11" src="./images/studyphotos/image 11.png" >
+      </div>
+      <div class="Hcol2">
+        <img id="image12" src="./images/studyphotos/image 12.png" >
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="aText">
+  <p class="aText">
+    The sketches were then analyzed and culminated into a suggestive product that we implemented through a mid-fidelity prototype.
+  </p>
+</div>
+
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="Hcol1">
+        <img id="image13" src="./images/studyphotos/image 13.png" >
+      </div>
+      <div class="Hcol2">
+        <img id="image14" src="./images/studyphotos/image 14.png" >
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="aText">
+  <p class="aText">
+    Now that it was established it was time to begin testing. Upon completing five user test on the prototype, users deemed the site much better
+     than the original. The suggestions users had that we implemented were moving the community stories and adoptable dogs to stack instead of being
+      side by side to show more image. By doing so users found this to be easier on the eyes and a smoother experience which we desired. With 
+      satisfied users and a solid design, we decided to start implementing a high fidelity design to begin testing.
+  </p>
+</div>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="Hcol1">
+        <p class="text" id="push">
+          The high fidelity design featured large high quality photos as well as redesigned and modernized form fields. Once the design was completed
+           we began to complete more testing where we took our original usability test and put them into trial once again. Usability testing on the 
+           redesign site turned to have a 100% success rate. On this first iteration some gathered insights to fix were prototyping errors, updating 
+           the donation page to be modern and trustworthy, and to condense long hero text to avoid overwhelming users.
+        </p>
+      </div>
+      <div class="Hcol2">
+        <img id="image16" src="./images/studyphotos/image 16.png" >
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="aText">
+  <p class="aText">
+    <br>
+    More test revealed some more issues with the site and those were that the Q&A text on the sites were excessive therefore, we created an 
+    accordion component to hold the Q&A info which users preferred. Our last focus was that users had issues with the adoption and foster page. 
+    The users observed that there were not enough animals visible on the page and that it was consumed by the adoption form. Our final iteration 
+    implemented a renewed pagination page which would host more than three animals like before. The page would feature a pagination structure to 
+    show customers where they were on the page and to give more thorough info on the pets at first glance. The adoption form was also removed from
+     the site overlay and was replaced with a link on the selected animal.
+  </p>
+</div>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="Hcol1">
+        <img id="image17" src="images/studyphotos/Image 17.png" >
+      </div>
+      <div class="Hcol2">
+        <img id="image18" src="./images/studyphotos/Image 18.png" >
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+<div class="aText">
+  <p class="aText" id="push2">
+    At last, our design was complete and was fully adopted based on user research and testing. The Web redesign that we created for Second Chance Chi
+     is more modern, user friendly, and creates an environment where dog lovers could participate in a simpler adoption process, as well as fostering 
+     and observing the use of the donations that are made. This new design will keep users coming back again and again to participate in helping advocate
+      for these dogs in need. It will also help bring more donations to the page and allow users to see current stories of dogs that have been saved.
+  </p>
+</div>
+
+<div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="Hcol1">
+        <img id="image19" src="./images/studyphotos/image 19.png" >
+        <p class="text" id="push" id="pushM">
+          Some next steps to be taken on the website include:
+          <br>
+          -Working with the organization to come up with a new logo to match the new palette.
+          <br>
+          -Creating an event calendar for volunteer opportunities.
+          <br>          
+          -Adding a voting feature to provide influence to where excess donations go.
+          <br>          
+          -Allowing users to create accounts.
+        </p>
+      </div>
+      <div class="Hcol2">
+        <img id="image21" src="./images/studyphotos/image 21.png" >
+      </div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--Footer-->
+<footer>
+  <div class="foot">
+    <div class="logoF">
+      <img id="footerLogo" src="images/K-removebg-preview.png" width="150"
+        height="150">
+    </div>
+    <div class="rightf">
+      <a href="#">Inquiries</a>
+      <a href="#">Reviews</a>
+    </div>
+  </div>
+</footer>
+<!--End Footer-->
+
+</body>
+
+<!--Scripts-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+
+<script src="./modal.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!--End Scripts-->
+</html>
+
+
+<!--
+  <div class="cols">
+  <div class="container col-lg-3 col-md-3 col-sm-12">
+    <div class="row">
+      <div class="col">Hi</div>
+      <div class="col">Hi</div>
+      <div class="w-100"></div>
+    </div>
+  </div>
+</div>
+-->
