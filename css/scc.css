@@ -67,6 +67,7 @@
   -webkit-text-stroke-color: black;
   text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .rightH{
@@ -107,6 +108,7 @@ margin-right: auto;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 1.5px;
+  text-decoration: none;
 }
 
 #split2{
