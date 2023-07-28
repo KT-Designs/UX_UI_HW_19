@@ -67,7 +67,7 @@
   -webkit-text-stroke-color: black;
   text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .rightH{
@@ -284,6 +284,7 @@ body{
   -webkit-text-stroke-color: black;
   text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.5);
   cursor: pointer;
+  text-decoration: none !important; /*update*/
 }
 
 /*End Footer*/
@@ -297,7 +298,7 @@ body{
 
 
 
-
+/*Begin Body CSS*/
 body {
   height: 300px;
 }
